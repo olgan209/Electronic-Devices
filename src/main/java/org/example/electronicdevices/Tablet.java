@@ -31,7 +31,7 @@ public class Tablet extends Device{
 
     @Override
     public String toString() {
-        return "Smartphone{" +
+        return "Tablet{" +
                 "type=" + type +
                 ", name='" + name + '\'' +
                 ", price=" + price +
