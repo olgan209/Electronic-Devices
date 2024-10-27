@@ -28,4 +28,16 @@ public class Laptop extends Device {
     public void setProcessorType(String processorType) {
         this.processorType = processorType;
     }
+
+    @Override
+    public String toString() {
+        return "Smartphone{" +
+                "type=" + type +
+                ", name='" + name + '\'' +
+                ", price=" + price +
+                ", weight=" + weight +
+                ", screenSize=" + ramSize +
+                ", resolution=" + processorType +
+                '}';
+    }
 }

@@ -1,10 +1,10 @@
 package org.example.electronicdevices;
 
 public class Device {
-    private DeviceType type;
-    private String name;
-    private double price;
-    private double weight;
+    protected DeviceType type;
+    protected String name;
+    protected double price;
+    protected double weight;
 
     public Device(DeviceType type, String name, double price, double weight) {
     }

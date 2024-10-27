@@ -30,4 +30,16 @@ public class Smartphone extends Device {
     public void setCameraResolution(double cameraResolution) {
         this.cameraResolution = cameraResolution;
     }
+
+    @Override
+    public String toString() {
+        return "Smartphone{" +
+                "type=" + type +
+                ", name='" + name + '\'' +
+                ", price=" + price +
+                ", weight=" + weight +
+                ", screenSize=" + screenSize +
+                ", resolution=" + cameraResolution +
+                '}';
+    }
 }

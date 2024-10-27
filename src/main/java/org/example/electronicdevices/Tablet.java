@@ -29,4 +29,16 @@ public class Tablet extends Device{
         this.hasStylus = hasStylus;
     }
 
+    @Override
+    public String toString() {
+        return "Smartphone{" +
+                "type=" + type +
+                ", name='" + name + '\'' +
+                ", price=" + price +
+                ", weight=" + weight +
+                ", screenSize=" + batteryLife +
+                ", resolution=" + hasStylus +
+                '}';
+    }
+
 }
