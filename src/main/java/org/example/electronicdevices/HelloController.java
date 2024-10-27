@@ -16,10 +16,6 @@ public class HelloController {
     @FXML
     private RadioButton laptop;
     @FXML
-    private Button add;
-    @FXML
-    private Button remove;
-    @FXML
     private TextField name;
     @FXML
     private TextField price;
