@@ -36,8 +36,8 @@ public class Tablet extends Device{
                 ", name='" + name + '\'' +
                 ", price=" + price +
                 ", weight=" + weight +
-                ", screenSize=" + batteryLife +
-                ", resolution=" + hasStylus +
+                ", battery life=" + batteryLife +
+                ", style=" + hasStylus +
                 '}';
     }
 

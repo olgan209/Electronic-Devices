@@ -36,8 +36,8 @@ public class Laptop extends Device {
                 ", name='" + name + '\'' +
                 ", price=" + price +
                 ", weight=" + weight +
-                ", screenSize=" + ramSize +
-                ", resolution=" + processorType +
+                ", ram size=" + ramSize +
+                ", processor type=" + processorType +
                 '}';
     }
 }
